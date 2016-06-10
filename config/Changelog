@@ -1,0 +1,39 @@
+Image hosting providers list Changelog
+
+[A] Added, [U] Uploaded, [R] Removed (dead or other reason)
+[S] terms of Service updated
+[I] Logo changed
+
+v.0.5 	04/14/10
+	* [A]		imageshack.us
+	* [R]		megahorst.com
+	* [R]		hellameke.com
+	* [R]		imagecross.com
+	* [R]		theimghost.com
+	* [R]		imagenerd.com
+
+v.0.4	03/10/10
+	* [A]		imgur.com
+	* [R]		simpload.com
+	* [R]		imagecloset.com
+	
+
+v.0.3
+	Hmm... I forgot.
+
+v.0.2	10/10/09
+	* [A]		simpload.com
+	* [A]		hellameke.com
+	* [A]		imagecross.com
+	* [R] 		warst.com
+	* [R] 		picturewizard.com
+	* [R] 		turboimagehost.com
+	* [R]		petaimg.com
+	* [U][S]	megahorst.com
+	* [I]		hostingpics.net
+	* [I]		freeimagehosting.net
+	* [I]		imagehosting.com
+
+v.0.1	08/05/09
+	* Initial release
+	* see img_hosting_providers.xml.O.1.old

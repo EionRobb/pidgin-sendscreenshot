@@ -1,0 +1,15 @@
+
+#
+#
+#
+#
+#Server
+#	reason
+
+
+imagefra.me
+	redirect
+
+http://www.pict.com/
+	parent.reportError(0,"Can't find cookie!");
+

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<upload_hosts version='0.5' name='/'>
+  
+  <!-- 
+       <host name="Host name (as it will appear in the configure dialog)"
+            <param location="Country where the server is located". Not currently used.
+            <param form_action="Server-side form handler"/> 
+            <param file_input_name="Name of the file-select control."/>
+            <param regexp="Perl regexp to mach with the (direct image link)/. The interesting part must be surrounded by parenthesis"/>
+
+            <param name="extra name1" value="extra value1"/>
+              ...
+	    <param name="extra name_n" value="extra value_n"/>
+        </host>
+
+    If you have any suggestions, questions,
+         please e-mail me : <contact@raoulito.info>
+   -->
+  
+  <!-- Recommended -->
+
+  <host name="Imgur"> 
+    <param location=""/>
+    <param form_action="http://imgur.com/api/upload.xml"/>
+    <param file_input_name="image"/>
+    <param regexp="<original_image>(.*)</original_image>"/>  
+    <param name="key" value="ed30f64101e1f7f3359cb603ea6358e6" />
+  </host>
+
+  <!-- - - - - - - - - - - -->
+
+  <host name="UploadScreenshot">
+    <param location=""/>
+	<param form_action="http://img1.uploadscreenshot.com/api-upload.php"/>
+	<param file_input_name="userfile"/>
+	<param regexp="&lt;original&gt;(.*?)&lt;\/original&gt;"/>
+    <param name="apiKey" value="1fd6e9437e1180528760857308" />
+    <param name="xmlOutput" value="1" />
+  </host>
+
+  <host name="ImageShack">
+    <param location="us"/>
+    <param form_action="http://www.imageshack.us/"/>
+    <param file_input_name="fileupload"/>
+    <param regexp="\[IMG\](http:\/\/img.*?)\[\/IMG\]"/>
+    <param name="optimage" value="resample"/>
+  </host>
+
+  <host name="PicyUp">
+    <param location=""/>
+    <param form_action="http://www.picyup.com/"/>
+    <param file_input_name="fileup"/>
+    <param regexp=".*&lt;h2id=&quot;md&quot;&gt;Showdirectlythisimage&lt;\/h2&gt;&lt;divclass=&quot;ctninput&quot;&gt;&lt;divclass=&quot;codex&quot;&gt;&lt;ahref=&quot;(.*?)&quot;.*"/>
+  </host>
+
+  <host name="PixsUP_(png)"> <!-- .jpeg not supported .jpg supported... -->
+    <param location=""/>
+    <param form_action="http://www.pixsup.com/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp="\[img\](http:\/\/www.Pixsup.com\/uploads\/.*)\[\/img\]"/>
+    <param name="submit" value="image" /> <!-- mandatory -->
+  </host>
+
+  <host name="Freeimagehosting"> 
+    <param location=""/>
+    <param form_action="http://www.freeimagehosting.net/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp=".*&quot;(http:\/\/www\.freeimagehosting\.net\/image\.php.*?)&quot;.*"/>
+  </host>
+
+  <host name="HostingPics"> 
+    <param location=""/>
+    <param form_action="http://www.hostingpics.net/envoi.html"/>
+    <param file_input_name="photo1"/>
+    <!-- fixme, too long -->
+    <param regexp=".*Liendirectimage&lt;\/td&gt;&lt;tdclass=\&quot;link\&quot;&gt;&lt;inputtype=\&quot;text\&quot;readonly=\&quot;readonly\&quot;onclick=\&quot;javascript:this\.focus\(\);this\.select\(\);\&quot;size=\&quot;60\&quot;value=\&quot;(.*?)\&quot;.*"/>  
+  </host>
+</upload_hosts>
+
+<!-- end of img_hosting_providers.xml -->

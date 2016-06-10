@@ -1,0 +1,57 @@
+Definitions
+
+   1. 'File' refers to any document that has the potential to be uploaded to Imgur.
+   2. 'User' refers to the individual who uploads files to Imgur, has uploaded files to Imgur, or accesses files from Imgur.
+   3. 'URL' refers to the location of any file located on Imgur's servers. 
+
+Terms of Service
+
+IMPORTANT! THESE TERMS OF SERVICE (TOS) GOVERN YOUR USE OF THIS SITE, WHICH IS PROVIDED BY IMGUR. BY ACCESSING THIS SITE, YOU ARE INDICATING YOUR ACKNOWLEDGMENT AND ACCEPTANCE OF THESE TERMS OF USE. THESE TERMS OF USE ARE SUBJECT TO CHANGE BY IMGUR AT ANY TIME IN ITS DISCRETION. YOUR USE OF THIS SITE AFTER SUCH CHANGES ARE IMPLEMENTED CONSTITUTES YOUR ACKNOWLEDGMENT AND ACCEPTANCE OF THE CHANGES. PLEASE CONSULT THESE TERMS OF USE REGULARLY.
+
+imgur reserves the right to remove or replace any uploaded files, and assumes no liability for lost registration links or misplaced file URLs.
+
+The following types of files constitute "abuse" and may not be uploaded under any circumstances, when using Imgur's Image Hosting:
+
+    * Files that violate any law or may be considered to violate any law.
+    * Files that infringe on the copyrights of any entity excluding the user.
+    * Non-image files. This includes archived non-image files.
+    * Files that advertise any commercial endeavor (e.g., offering for sale products or services) or otherwise engages in any commercial activity (e.g., conducting raffles or contests, displaying sponsorship banners, and/or soliciting goods or services).
+    * Nudity or pornography, or anything that may be confused as nudity or pornography. 
+
+If any domain hotlinks to abusive files, any file hotlinked on that domain will display this image, and the domain's owner must ensure the quick removal of all files hotlinked from Imgur on that domain. Domains containing the phrases "toplist", "topsites" are banned regardless of abuse.
+
+Uploading abusive files may result in the immediate termination of the user's ability to use Imgur or any of its provided services. The Imgur website may not load, all imgur-hosted files may not load, and all files related to the abusive files will be subject to deletion. Circumventing Imgur's ability to enforce the Imgur Terms of Service will result in prosecution.
+
+To report any type of abuse, send email using the Report Abuse or Request Deletion page. It may take up to 7 days to process deletion requests.
+Subscription and Payments
+
+Imgur's image hosting services are free. If User is nice, he or she may decide to donate, in which case Imgur will give he or she a big virtual bear hug in return.
+Privacy
+
+All information provided by the user is strictly confidential. Imgur reserves the right to distribute aggregated demographic information provided by the user, but Imgur will never release any personal information about the user without permission. However, Imgur reserves the right to release user information if user has violated the Imgur Terms of Service, if the user has committed unlawful acts, if the information is subpoenaed, or if Imgur deems it necessary or appropriate.
+Legal Policy
+
+Imgur Terms of Service are subject to change without notice.
+
+All files are copyrighted (c) to their respective owners. Imgur directs full legal responsibility of files to their respective users. All other content copyright (c) Imgur 2009. Imgur is not responsible for the content any uploaded files, nor is it in affiliation with any entities that may be represented in the uploaded files.
+Limitation of Liability
+
+User agrees that the use of Imgur's services is entirely at User's own risk. Imgur's services are provided on an "as is" basis without warranties of any kind, either expressed or implied, constructive, or statutory, including, without limitation, any implied warranties of merchantability, non-infringement or fitness for a particular purpose.
+
+Imgur makes no guarantee of availability of service and reserves the right to change, withdraw, suspend, or discontinue any functionality or feature of Imgur's services. In no event shall Imgur be liable for any damages, including, without limitation, direct, indirect, incidental, special, consequential, or punitive damages arising out of the use of or inability to use Imgur's services or any content thereon. This disclaimer applies, without limitation, to any damages or injury, whether for breach of contract, tort, or otherwise, caused by any failure of performance; error; omission; interruption; deletion; defect; delay in operation or transmission; computer virus; file corruption; communication-line failure; network or system outage; or theft, destruction, unauthorized access to, alteration of, or use of any record.
+Indemnity
+
+User agrees to indemnify and hold Imgur harmless from any loss, liability, claims, damages and expenses, including attorneys fees, arising from or related to the content, use, or deletion of User's Files or use of any other feature or service. This expressly includes:
+
+    * User's responsibility for any and all liability arising from the violation or infringement of proprietary rights or copyrights.
+    * Any defamatory or unlawful material contained within User's Files. 
+
+Waiver
+
+By accepting this agreement you waive and hold harmless company from any claims resulting from any action taken by imgur during or as a result of its investigations and/or from any actions taken as a consequence of investigations by either imgur or law enforcement authorities.
+Maintenance
+
+Imgur may perform maintenance services as Imgur determines reasonably necessary. User acknowledges that such maintenance may require downtime. Imgur will attempt to provide prior notice of the maintenance downtime, except in the case that circumstances beyond Imgur's control limit the ability to do so.
+Miscellaneous
+
+These Terms of Use will be governed and interpreted pursuant to the laws of Licking County, Ohio United States of America, notwithstanding any principles of conflicts of law. You specifically consent to personal jurisdiction in Licking County, OH in connection with any dispute between you and Company arising out of these Terms of Use or pertaining to the subject matter hereof. The parties to these Terms of Use each agree that the exclusive venue for any dispute between the parties arising out of these Terms of Use or pertaining to the subject matter of these Terms of Use will be in the state and federal courts in Licking County, Ohio. If any part of these Terms of Use is unlawful, void or unenforceable, that part will be deemed severable and will not affect the validity and enforceability of any remaining provisions. These Terms of Use constitute the entire agreement among the parties relating to this subject matter. Notwithstanding the foregoing, any additional terms and conditions on this site will govern the items to which they pertain. Imgur may revise these Terms of Use at any time by updating this posting.

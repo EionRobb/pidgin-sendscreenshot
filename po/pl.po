@@ -1,0 +1,529 @@
+#
+# Polish translations for pidgin-screenshot package.
+# Copyright (C) 2009 THE pidgin-screenshot'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pidgin-screenshot package.
+# <lightcloak@gmail.com>, 2009.
+# tomkiewi, 2011
+
+msgid ""
+msgstr ""
+"Project-Id-Version: pidgin-screenshot 0.6-0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-10 13:50+0200\n"
+"PO-Revision-Date: 2009-08-10 11:07+0200\n"
+"Last-Translator: <milosz.odin@gmail.com>\n"
+"Language-Team: Polski\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/dialogs.h:31
+msgid "Please be ready ! Desktop will freeze in..."
+msgstr "Proszę czekać, zrzut ekranu zostanie wykonany za..."
+
+#: src/error.h:58
+msgid "FTP upload failed:"
+msgstr "Nie udało się wysłać przez FTP:"
+
+#: src/error.h:61
+#, c-format
+msgid ""
+"Failed to upload the screenshot to '%s'!\n"
+"%s"
+msgstr ""
+"Nie udało się wysłać zrzutu ekranu na \"%s\"!\n"
+"%s"
+
+#: src/error.h:64
+msgid "Failed to open screenshot file:"
+msgstr "Nie udało się otworzyć pliku ze zrzutem ekranu:"
+
+#: src/ftp_upload.h:38
+#, c-format
+msgid "Uploading %d/%d bytes..."
+msgstr "Wysyłanie: %d/%d bajtów..."
+
+#: src/ftp_upload.h:40
+msgid "as a link (_FTP upload)"
+msgstr "jako link (upload _FTP)"
+
+#: src/ftp_upload.h:41
+msgid "as a URL (_FTP upload)"
+msgstr "jako URL (upload _FTP)"
+
+#: src/http_upload.c:338
+#, c-format
+msgid ""
+"Regexp doesn't match HTTP upload response !\n"
+"Server: %s\n"
+"Regexp:\n"
+"%s\n"
+"Response:\n"
+"%s\n"
+msgstr ""
+"Wyrażenie regularne nie pasuje do odpowiedzi HTTP!\n"
+"Serwer: %s\n"
+"Wyrażenie:\n"
+"%s\n"
+"Odpowiedź:\n"
+"%s\n"
+
+#: src/http_upload.h:93
+#, c-format
+msgid "Error on line %d char %d:\n"
+msgstr "Błąd na lini %d, znak %d:\n"
+
+#: src/http_upload.h:94
+#, c-format
+msgid "Something's missing for server '%s':"
+msgstr "Niezdefiniowany błąd ze strony serwera '%s':"
+
+#: src/http_upload.h:95
+#, c-format
+msgid "Please refer to %s to learn how to add your own server."
+msgstr "Aby dodać Swój własny serwer, odwołaj się do %s."
+
+#: src/http_upload.h:97
+#, c-format
+msgid "Bad regular expression: '%s'!"
+msgstr "Błąd w wyrażeniu regularnym: \"%s\"!"
+
+#: src/http_upload.h:99
+#, c-format
+msgid ""
+"Cannot fetch the URL of your screenshot !\n"
+"Regular expression doesn't match (see debug window).\n"
+"Most likeley '%s' has been updated...\n"
+msgstr ""
+"Nie można przetworzyć URL Twojego zrzutu ekranu!\n"
+"Wyrażenie regularne nie pasuje (patrz okno debugowania).\n"
+"Najprawdopodobniej, serwis \"%s\" został zmodyfikowany...\n"
+
+#: src/http_upload.h:103
+msgid "Incorrect xml host config file"
+msgstr "Zły plik xml, konfigurujący hosta"
+
+#: src/http_upload.h:105
+#, c-format
+msgid ""
+"%s.\n"
+"\n"
+"This file contains a list of image hosting providers.\n"
+"Please connect to %s to in order to fetch it."
+msgstr ""
+"%s.\n"
+"\n"
+"Ten plik zawiera w sobie listę serwerów hostujących obrazki.\n"
+"Połącz się z %s aby pobrać dane."
+
+#: src/http_upload.h:109
+msgid ""
+"You haven't selected any image hosting provider yet.\n"
+"Please select one from the configure dialog."
+msgstr ""
+"Nie wybrano jeszcze serwera hostującego.\n"
+"Musisz wybrać jeden w oknie konfiguracji."
+
+#: src/http_upload.h:112
+#, c-format
+msgid ""
+"Failed to parse the contents of:\n"
+"%s"
+msgstr ""
+"Niepowodzenie interpretacji:\n"
+"%s"
+
+#: src/http_upload.h:115
+msgid "Selected host not met !"
+msgstr "Nieznany serwer!"
+
+#: src/http_upload.h:116
+msgid "No server-side form handler !"
+msgstr "Brak zawartości server-side dla form!"
+
+#: src/http_upload.h:117
+msgid "No file-select control name !"
+msgstr "Brak wybranego pliku!"
+
+#: src/http_upload.h:118
+msgid "No regular expression to extract html link !"
+msgstr "Brak parametrów do podania linku!"
+
+#: src/http_upload.h:120
+#, c-format
+msgid "\"%s\" is not a valid element name!\n"
+msgstr "\"%s\" to niewłaściwia nazwa dla elementu!\n"
+
+#: src/http_upload.h:121
+#, c-format
+msgid "\"%s\" is not a valid attribute for element \"%s\"!\n"
+msgstr "\"%s\" to niewłaściwy atrybut dla elementu \"%s\"!\n"
+
+#: src/http_upload.h:122
+#, c-format
+msgid "element \"%s\" is missing an attribute !\n"
+msgstr "element \"%s\" nie posiada atrybutu!\n"
+
+#: src/http_upload.h:123
+msgid "a \"value\" attribute is missing !\n"
+msgstr "brakuje następującego atrybutu: \"value\"\n"
+
+#: src/http_upload.h:130
+msgid "as a link (_HTML upload)"
+msgstr "jako link (upload _HTML)"
+
+#: src/http_upload.h:131
+msgid "as a URL (_HTML upload)"
+msgstr "jako URL (upload _HTML)"
+
+#: src/http_upload.h:132
+msgid "More info"
+msgstr "Więcej"
+
+#: src/main.h:73
+msgid "Send Screenshot"
+msgstr "Wysyłanie zrzutów ekranu"
+
+#: src/main.h:74
+msgid "Capture and send a screenshot."
+msgstr "Umożliwia łatwe wykonywanie i wysyłanie zrzutu ekranu."
+
+#: src/main.h:75
+msgid "This plugin will capture a screenshot given a rectangular area."
+msgstr ""
+"Ten plugin pozwoli łatwo wykonać zrzut ekranu oraz wybrać obszar do "
+"wysłania."
+
+#: src/main.h:83
+msgid "Information"
+msgstr "Informacje"
+
+#: src/main.h:86
+msgid "Error"
+msgstr "Błąd"
+
+#: src/main.h:88
+#, c-format
+msgid ""
+"Another instance of %s is already running.\n"
+"Please wait before sending an other screenshot."
+msgstr ""
+"Kopia %s aktualnie działa w tle.\n"
+"Poczekaj nim wyślesz kolejny zrzut ekranu."
+
+#: src/main.h:91
+#, c-format
+msgid "Cannot allocate enough memory (%lu bytes) to load plugin data !"
+msgstr ""
+"Nie można zaalokować wystarczającego miejsca w pamięci(%lu bytes), aby "
+"uruchomić ten dodatek."
+
+#: src/main.h:92
+msgid ""
+"Failed to allocate enough memory to create the screenshot. You will need to "
+"quit some applications and retry."
+msgstr ""
+"Nie można zaalokować wystarczającego miejsca w pamięci aby wykonać zrzut "
+"ekranu. Proszę, zamknij niepotrzebne aplikacje i spróbuj jeszcze raz."
+
+#: src/main.h:94
+#, c-format
+msgid "Failed to save your screenshot to '%s'."
+msgstr "Nie można zapisać obrazka do katalogu '%s'."
+
+#: src/main.h:96
+#, c-format
+msgid "Failed to get '%s' data."
+msgstr "Nie udało się uzyskać danych: %s."
+
+#: src/main.h:97
+msgid "Failed to insert your screenshot in the text area."
+msgstr "Nie udało się umieścić zrzutu w polu tekstowym."
+
+#: src/main.h:99
+#, c-format
+msgid ""
+"The image used to sign the screenshot is too big.\n"
+"%dx%d is the maximum allowed."
+msgstr ""
+"Obrazek użyty do podpisania zrzutu ekranu jest za duży.\n"
+"%dx%d jest maksymalnym dozwolonym rozmiarem."
+
+#: src/main.h:102
+msgid "An unexpected error occured, see debug window..."
+msgstr "Wystąpił niespodziewany błąd, szczegóły w oknie debugowania..."
+
+#: src/main.h:110
+msgid "No selection"
+msgstr "Brak zaznaczenia"
+
+#: src/main.h:111
+msgid "Terms Of Service"
+msgstr "Warunki usługi"
+
+#: src/main.h:118
+msgid "_Screenshot"
+msgstr "Zrzut ekranu"
+
+#: src/main.h:119
+msgid "Insert _Screenshot..."
+msgstr "Wstaw zrzut ekranu..."
+
+#: src/main.h:120
+msgid "Send a _Screenshot..."
+msgstr "Wyślij _Zrzut ekranu"
+
+#: src/main.h:122
+msgid "capture"
+msgstr "zrzut_ekranu"
+
+#: src/main.h:124
+msgid "as an _Image"
+msgstr "jako obrazek"
+
+#: src/main.h:126
+msgid "Set capture name"
+msgstr "Ustaw nazwę zrzutu"
+
+#: src/main.h:127
+msgid "Capture name:"
+msgstr "Nazwa:"
+
+#: src/main.h:128
+msgid "File already exists!"
+msgstr "Plik już istnieje"
+
+#: src/prefs.c:537
+msgid "Image"
+msgstr "Obrazek"
+
+#: src/prefs.h:85
+msgid "Image parameters"
+msgstr "Parametry obrazka"
+
+#: src/prefs.h:86
+msgid "Display behaviour"
+msgstr "Wyświetlanie"
+
+#: src/prefs.h:87
+msgid "Saving"
+msgstr "Zapisywanie"
+
+#: src/prefs.h:88
+msgid "Misc"
+msgstr "Różne"
+
+#: src/prefs.h:90
+msgid "Combo of modifiers + keys"
+msgstr "Ustawienia skrótów klawiszowych"
+
+#: src/prefs.h:92
+msgid "HTTP upload"
+msgstr "Wysyłanie przez HTTP"
+
+#: src/prefs.h:93
+msgid "FTP upload"
+msgstr "Wysyłanie przez FTP"
+
+#: src/prefs.h:94
+msgid "Upload options"
+msgstr "Opcje wysyłania"
+
+#: src/prefs.h:96
+msgid "Image format: "
+msgstr "Format obrazka: "
+
+#: src/prefs.h:103
+msgid "JPEG quality level:"
+msgstr "Stopień kompresji JPEG:"
+
+#: src/prefs.h:105
+msgid "PNG compression level:"
+msgstr "Stopień kompresji PNG:"
+
+#: src/prefs.h:107
+msgid "Always add this signature:"
+msgstr "Wklejaj podpis:"
+
+#: src/prefs.h:109
+#, c-format
+msgid "Hold the modifier keys and press %s..."
+msgstr "Przytrzymaj klawisz specjalny i przyciśnij %s..."
+
+#: src/prefs.h:111
+msgid "Send as File: "
+msgstr "Wyślij jako plik: "
+
+#: src/prefs.h:112
+msgid "Send as Image: "
+msgstr "Wyślij jako obrazek: "
+
+#: src/prefs.h:114
+msgid "Send as FTP link: "
+msgstr "Wyślij jako link (przez FTP): "
+
+#: src/prefs.h:115
+msgid "Send as HTTP link: "
+msgstr "Wyślij jako link (przez HTTP): "
+
+#: src/prefs.h:118
+msgid "Highlight mode:"
+msgstr "Podświetlenie:"
+
+#: src/prefs.h:119
+msgid "lighten up desktop"
+msgstr "Rozjaśnienie puliptu"
+
+#: src/prefs.h:120
+msgid "darken desktop"
+msgstr "Zaciemnienie pulpitu"
+
+#: src/prefs.h:121
+msgid "invert selection only"
+msgstr "Odwróć zaznaczenie"
+
+#: src/prefs.h:122
+msgid "borders only"
+msgstr "Tylko ramka"
+
+#: src/prefs.h:123
+msgid "grayscale desktop"
+msgstr "Zaciemnienie pulpitu"
+
+#: src/prefs.h:125
+msgid "Folder to store captures in:"
+msgstr "Folder zapisu obrazków:"
+
+#: src/prefs.h:127
+msgid "Always ask for filename when sending as a file."
+msgstr "Zawsze pytaj o nazwę pliku przed wysłaniem."
+
+#: src/prefs.h:128
+msgid "Only save when sending as a File."
+msgstr "Zapisuj tylko, gdy obrazek jest wysyłany jako plik."
+
+#: src/prefs.h:130
+msgid "Show visual cues."
+msgstr "Pokazuj prowadnice."
+
+#: src/prefs.h:132
+msgid "Seconds to wait before desktop freezes:"
+msgstr "Oczekiwanie przed wykonaniem zrzutu ekranu (sekundy):"
+
+#: src/prefs.h:135
+msgid "General"
+msgstr "Ogólne"
+
+#: src/prefs.h:136
+msgid "Hotkeys"
+msgstr "Skróty klawiszowe"
+
+#: src/prefs.h:139
+msgid "Upload"
+msgstr "Wysyłanie"
+
+#: src/prefs.h:141
+msgid ""
+"Pick an image hosting provider (<span foreground='blue'><u>list v.%s</u></"
+"span>)"
+msgstr "Wybierz serwer hostujący pliki (<span foreground='blue'><u>lista v.%s</u>"
+"</span>)"
+
+#: src/prefs.h:143
+msgid "Connect timeout (sec): "
+msgstr "Przekroczony limit połączenia (sec): "
+
+#: src/prefs.h:144
+msgid "Upload timeout (sec): "
+msgstr "Przekroczony limit wysyłania (sec): "
+
+#: src/prefs.h:145
+msgid "Remote FTP URL:"
+msgstr "Adres FTP:"
+
+#: src/prefs.h:146
+msgid "Corresponding Web address:"
+msgstr "Powiązany adres HTTP:"
+
+#: src/prefs.h:147
+msgid "User:"
+msgstr "Użytkownik:"
+
+#: src/prefs.h:148
+msgid "Password:"
+msgstr "Hasło:"
+
+#: src/prefs.h:151
+msgid "invalid..."
+msgstr "nieprawidłowy..."
+
+#: src/screencap.h:67
+msgid "An other program has requested to use the display, canceling..."
+msgstr "Inna aplikacja używa ekranu, anulowanie..."
+
+#: src/upload_utils.h:39
+msgid "Location of your screenshot on disk:"
+msgstr "Lokalizacja zrzutu na dysku:"
+
+#: src/upload_utils.h:42
+#, c-format
+msgid "Uploading to \"%s\"..."
+msgstr "Wysyłanie zrzutu ekranu na \"%s\"..."
+
+#: src/upload_utils.h:45
+#, c-format
+msgid ""
+"Failed to insert a link, possible reasons are:\n"
+" - account not connected,\n"
+" - conversation window closed.\n"
+"\n"
+"The link is:\n"
+"%s"
+msgstr ""
+"Nie udało się wstawić linka, prawdopodobne powody:\n"
+" - nie połączono z serwerem,\n"
+" - okno rozmowy zostało zamknięte.\n"
+"\n"
+"Link:\n"
+"%s"
+
+#~ msgid ""
+#~ "Your screenshot has been uploaded to '%s' but the link cannot be "
+#~ "extracted :\n"
+#~ "***%s.\n"
+#~ "\n"
+#~ "Posible reasons are:\n"
+#~ " - the server has been updated\n"
+#~ " - cannot load the server response into memory\n"
+#~ " - bad regular expression (if you are intending to add your own server)"
+#~ msgstr ""
+#~ "Zrzut ekranu został wrzucony na serwer '%s' lecz nie można zdefiniować do "
+#~ "niego linku :\n"
+#~ "***%s.\n"
+#~ "\n"
+#~ "Prawdopodobne problemy:\n"
+#~ " - serwer przeszedł update\n"
+#~ " - nie można załadować odpowiedzi serwera do pamięci\n"
+#~ " - źle podane parametry (jeśli zostały dodane własne serwery)"
+
+#~ msgid "Regular expression compilation error"
+#~ msgstr "Błąd kompilacji wyrażenia regularnego"
+
+#~ msgid "Screenshot upload"
+#~ msgstr "Upload zrzutów ekranu"
+
+#~ msgid "_Screen capture"
+#~ msgstr "_Zrzut ekranu"
+
+#~ msgid "Send screen ca_pture..."
+#~ msgstr "Wyślij zrzut ekranu..."
+
+#~ msgid "as a html link..."
+#~ msgstr "jako link html..."
+
+#~ msgid "as a plain text link..."
+#~ msgstr "jako zwykły tekst..."
+
+#~ msgid "Abort if no activity for (sec): "
+#~ msgstr "Zaprzestań jeśli brak aktywności przez (sec): "

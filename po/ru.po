@@ -1,0 +1,495 @@
+# Russian translations for pidgin-sendscreenshot package.
+# Copyright (C) 2010 THE pidgin-sendscreenshot'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pidgin-sendscreenshot package.
+# Ilya S., <root@nfodb.ru>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pidgin-sendscreenshot 0.6-5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-10 13:50+0200\n"
+"PO-Revision-Date: 2010-04-08 16:42+0300\n"
+"Last-Translator: Ilya S. <root@nfodb.ru>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/dialogs.h:31
+msgid "Please be ready ! Desktop will freeze in..."
+msgstr ""
+
+#: src/error.h:58
+msgid "FTP upload failed:"
+msgstr "Ошибка загрузки на FTP:"
+
+#: src/error.h:61
+#, fuzzy, c-format
+msgid ""
+"Failed to upload the screenshot to '%s'!\n"
+"%s"
+msgstr "Ошибка загрузки скриншота на '%s'!"
+
+#: src/error.h:64
+#, fuzzy
+msgid "Failed to open screenshot file:"
+msgstr "Ошибка загрузки скриншота на '%s'!"
+
+#: src/ftp_upload.h:38
+#, c-format
+msgid "Uploading %d/%d bytes..."
+msgstr ""
+
+#: src/ftp_upload.h:40
+msgid "as a link (_FTP upload)"
+msgstr "как ссылка (_FTP загрузка)"
+
+#: src/ftp_upload.h:41
+msgid "as a URL (_FTP upload)"
+msgstr "как URL (_FTP загрузка)"
+
+#: src/http_upload.c:338
+#, c-format
+msgid ""
+"Regexp doesn't match HTTP upload response !\n"
+"Server: %s\n"
+"Regexp:\n"
+"%s\n"
+"Response:\n"
+"%s\n"
+msgstr ""
+
+#: src/http_upload.h:93
+#, c-format
+msgid "Error on line %d char %d:\n"
+msgstr "Ошибка на строке %d символ %d:\n"
+
+#: src/http_upload.h:94
+#, c-format
+msgid "Something's missing for server '%s':"
+msgstr "Что-то пропущено в сервере '%s':"
+
+#: src/http_upload.h:95
+#, c-format
+msgid "Please refer to %s to learn how to add your own server."
+msgstr "Пожалуйста прочитайте %s чтобы узнать как добавить свой сервер."
+
+#: src/http_upload.h:97
+#, fuzzy, c-format
+msgid "Bad regular expression: '%s'!"
+msgstr "Регулярное выражение не совпадает !"
+
+#: src/http_upload.h:99
+#, c-format
+msgid ""
+"Cannot fetch the URL of your screenshot !\n"
+"Regular expression doesn't match (see debug window).\n"
+"Most likeley '%s' has been updated...\n"
+msgstr ""
+
+#: src/http_upload.h:103
+msgid "Incorrect xml host config file"
+msgstr "Ошибка в xml конфиг. файле"
+
+#: src/http_upload.h:105
+#, c-format
+msgid ""
+"%s.\n"
+"\n"
+"This file contains a list of image hosting providers.\n"
+"Please connect to %s to in order to fetch it."
+msgstr ""
+"%s.\n"
+"\n"
+"Данный файл содержит список сервисов для загрузки картинок.\n"
+"Соединитесь с %s чтобы загрузить его."
+
+#: src/http_upload.h:109
+msgid ""
+"You haven't selected any image hosting provider yet.\n"
+"Please select one from the configure dialog."
+msgstr ""
+"Вы еще не выбрали ни одного сервиса картинок.\n"
+"Пожалуйста выберите один из них в окне настроек."
+
+#: src/http_upload.h:112
+#, c-format
+msgid ""
+"Failed to parse the contents of:\n"
+"%s"
+msgstr ""
+"Невозможно пропарсить содержимое:\n"
+"%s"
+
+#: src/http_upload.h:115
+msgid "Selected host not met !"
+msgstr "Выбранный сервер не найден!"
+
+#: src/http_upload.h:116
+msgid "No server-side form handler !"
+msgstr "Не найден обработчик формы на сервере !"
+
+#: src/http_upload.h:117
+msgid "No file-select control name !"
+msgstr "Нет файла-выберите название !"
+
+#: src/http_upload.h:118
+msgid "No regular expression to extract html link !"
+msgstr "Отсутствует регулярное выражение для извлечения ссылки !"
+
+#: src/http_upload.h:120
+#, c-format
+msgid "\"%s\" is not a valid element name!\n"
+msgstr "\"%s\" не является допустимым именем элемента!\n"
+
+#: src/http_upload.h:121
+#, c-format
+msgid "\"%s\" is not a valid attribute for element \"%s\"!\n"
+msgstr "\"%s\" не является допустимым атрибутом для элемента \"%s\"!\n"
+
+#: src/http_upload.h:122
+#, c-format
+msgid "element \"%s\" is missing an attribute !\n"
+msgstr "элемент \"%s\" не содержит атрибута !\n"
+
+#: src/http_upload.h:123
+msgid "a \"value\" attribute is missing !\n"
+msgstr "\"значение\" атрибута пропущено !\n"
+
+#: src/http_upload.h:130
+msgid "as a link (_HTML upload)"
+msgstr "как ссылка (_HTML загрузка)"
+
+#: src/http_upload.h:131
+msgid "as a URL (_HTML upload)"
+msgstr "как URL (_HTML загрузка)"
+
+#: src/http_upload.h:132
+msgid "More info"
+msgstr "Показать больше информации"
+
+#: src/main.h:73
+msgid "Send Screenshot"
+msgstr "Отправка скриншота"
+
+#: src/main.h:74
+msgid "Capture and send a screenshot."
+msgstr "Делает и отправлет скриншот."
+
+#: src/main.h:75
+msgid "This plugin will capture a screenshot given a rectangular area."
+msgstr "Данный плагин делает скриншот выбранного участка экрана."
+
+#: src/main.h:83
+msgid "Information"
+msgstr ""
+
+#: src/main.h:86
+msgid "Error"
+msgstr "Ошибка"
+
+#: src/main.h:88
+#, c-format
+msgid ""
+"Another instance of %s is already running.\n"
+"Please wait before sending an other screenshot."
+msgstr ""
+"Одна копия %s уже запущена.\n"
+"Пожалуйста подождите перед отправкой нового скриншота."
+
+#: src/main.h:91
+#, c-format
+msgid "Cannot allocate enough memory (%lu bytes) to load plugin data !"
+msgstr "Невозможно выделить достаточно памяти (%lu байт) для загрузки плагина!"
+
+#: src/main.h:92
+msgid ""
+"Failed to allocate enough memory to create the screenshot. You will need to "
+"quit some applications and retry."
+msgstr ""
+"Невозможно выделить память под создание скриншота. Закройте несколько "
+"программ и попробуйте снова."
+
+#: src/main.h:94
+#, c-format
+msgid "Failed to save your screenshot to '%s'."
+msgstr "Невозможно сохранить скриншот в '%s'."
+
+#: src/main.h:96
+#, c-format
+msgid "Failed to get '%s' data."
+msgstr "Невозможно получить '%s' данные."
+
+#: src/main.h:97
+msgid "Failed to insert your screenshot in the text area."
+msgstr "Невозможно вставить скриншот в текстовое поле."
+
+#: src/main.h:99
+#, c-format
+msgid ""
+"The image used to sign the screenshot is too big.\n"
+"%dx%d is the maximum allowed."
+msgstr ""
+"Изображение для подписи скриншота слишком большое.\n"
+"%dx%d максимально разрешенный размер."
+
+#: src/main.h:102
+msgid "An unexpected error occured, see debug window..."
+msgstr ""
+
+#: src/main.h:110
+msgid "No selection"
+msgstr "Ничего не выбрано"
+
+#: src/main.h:111
+msgid "Terms Of Service"
+msgstr "Правила сервиса"
+
+#: src/main.h:118
+msgid "_Screenshot"
+msgstr "_Скриншот"
+
+#: src/main.h:119
+msgid "Insert _Screenshot..."
+msgstr "Вставить _Скриншот..."
+
+#: src/main.h:120
+msgid "Send a _Screenshot..."
+msgstr "Отправить _Скриншот..."
+
+#: src/main.h:122
+msgid "capture"
+msgstr "capture"
+
+#: src/main.h:124
+msgid "as an _Image"
+msgstr "как _Изображение"
+
+#: src/main.h:126
+msgid "Set capture name"
+msgstr "Указать название скриншота"
+
+#: src/main.h:127
+msgid "Capture name:"
+msgstr "Название скриншота"
+
+#: src/main.h:128
+msgid "File already exists!"
+msgstr "Файл уже существует!"
+
+#: src/prefs.c:537
+msgid "Image"
+msgstr "Изображение"
+
+#: src/prefs.h:85
+msgid "Image parameters"
+msgstr "Параметры изображения"
+
+#: src/prefs.h:86
+#, fuzzy
+msgid "Display behaviour"
+msgstr "Работа плагина"
+
+#: src/prefs.h:87
+msgid "Saving"
+msgstr ""
+
+#: src/prefs.h:88
+msgid "Misc"
+msgstr ""
+
+#: src/prefs.h:90
+msgid "Combo of modifiers + keys"
+msgstr ""
+
+#: src/prefs.h:92
+msgid "HTTP upload"
+msgstr "Загрузка по HTTP"
+
+#: src/prefs.h:93
+msgid "FTP upload"
+msgstr "Загрузка по FTP"
+
+#: src/prefs.h:94
+#, fuzzy
+msgid "Upload options"
+msgstr "Таймаут загрузки (сек):"
+
+#: src/prefs.h:96
+msgid "Image format: "
+msgstr "Формат изображения:"
+
+#: src/prefs.h:103
+msgid "JPEG quality level:"
+msgstr "Качество JPEG:"
+
+#: src/prefs.h:105
+msgid "PNG compression level:"
+msgstr "Уровень сжатия PNG:"
+
+#: src/prefs.h:107
+msgid "Always add this signature:"
+msgstr "Всегда добавлять подпись:"
+
+#: src/prefs.h:109
+#, c-format
+msgid "Hold the modifier keys and press %s..."
+msgstr ""
+
+#: src/prefs.h:111
+msgid "Send as File: "
+msgstr ""
+
+#: src/prefs.h:112
+msgid "Send as Image: "
+msgstr ""
+
+#: src/prefs.h:114
+msgid "Send as FTP link: "
+msgstr ""
+
+#: src/prefs.h:115
+msgid "Send as HTTP link: "
+msgstr ""
+
+#: src/prefs.h:118
+msgid "Highlight mode:"
+msgstr "Режим подсветки:"
+
+#: src/prefs.h:119
+msgid "lighten up desktop"
+msgstr "светлый экран"
+
+#: src/prefs.h:120
+msgid "darken desktop"
+msgstr "темный экран"
+
+#: src/prefs.h:121
+msgid "invert selection only"
+msgstr "инвертировать выбранный участок"
+
+#: src/prefs.h:122
+msgid "borders only"
+msgstr "только границы"
+
+#: src/prefs.h:123
+msgid "grayscale desktop"
+msgstr "серый экран"
+
+#: src/prefs.h:125
+msgid "Folder to store captures in:"
+msgstr "Папка для сохранения скриншотов:"
+
+#: src/prefs.h:127
+msgid "Always ask for filename when sending as a file."
+msgstr "Всегда спрашивать имя файла при отправке в виде файла."
+
+#: src/prefs.h:128
+#, fuzzy
+msgid "Only save when sending as a File."
+msgstr "Всегда спрашивать имя файла при отправке в виде файла."
+
+#: src/prefs.h:130
+msgid "Show visual cues."
+msgstr "Показывать визуальные подсказки."
+
+#: src/prefs.h:132
+msgid "Seconds to wait before desktop freezes:"
+msgstr "Сколько секунд ждать до заморозки экрана:"
+
+#: src/prefs.h:135
+msgid "General"
+msgstr ""
+
+#: src/prefs.h:136
+msgid "Hotkeys"
+msgstr ""
+
+#: src/prefs.h:139
+#, fuzzy
+msgid "Upload"
+msgstr "Загрузка по FTP"
+
+#: src/prefs.h:141
+#, c-format
+msgid ""
+"Pick an image hosting provider (<span foreground='blue'><u>list v.%s</u></"
+"span>)"
+msgstr ""
+"Выберите сайт для закачки  (<span foreground='blue'><u>list v.%s</u></span>)"
+
+#: src/prefs.h:143
+msgid "Connect timeout (sec): "
+msgstr "Таймаут соединения (сек.):"
+
+#: src/prefs.h:144
+msgid "Upload timeout (sec): "
+msgstr "Таймаут загрузки (сек):"
+
+#: src/prefs.h:145
+msgid "Remote FTP URL:"
+msgstr "Удаленный FTP сервер:"
+
+#: src/prefs.h:146
+msgid "Corresponding Web address:"
+msgstr "Соответствующий сайт:"
+
+#: src/prefs.h:147
+msgid "User:"
+msgstr "Логин:"
+
+#: src/prefs.h:148
+msgid "Password:"
+msgstr "Пароль:"
+
+#: src/prefs.h:151
+msgid "invalid..."
+msgstr ""
+
+#: src/screencap.h:67
+msgid "An other program has requested to use the display, canceling..."
+msgstr ""
+
+#: src/upload_utils.h:39
+msgid "Location of your screenshot on disk:"
+msgstr "Расположение скриншота на диске:"
+
+#: src/upload_utils.h:42
+#, fuzzy, c-format
+msgid "Uploading to \"%s\"..."
+msgstr "Загружаю скриншот на \"%s\"..."
+
+#: src/upload_utils.h:45
+#, fuzzy, c-format
+msgid ""
+"Failed to insert a link, possible reasons are:\n"
+" - account not connected,\n"
+" - conversation window closed.\n"
+"\n"
+"The link is:\n"
+"%s"
+msgstr ""
+"Невозможно вставить ссылку потому что окно чата было закрыто.\n"
+"\n"
+"Ссылка:\n"
+"%s"
+
+#~ msgid ""
+#~ "Your screenshot has been uploaded to '%s' but the link cannot be "
+#~ "extracted :\n"
+#~ "***%s.\n"
+#~ "\n"
+#~ "Posible reasons are:\n"
+#~ " - the server has been updated\n"
+#~ " - cannot load the server response into memory\n"
+#~ " - bad regular expression (if you are intending to add your own server)"
+#~ msgstr ""
+#~ "Скриншот был успешно загружен на '%s' но ссылка не была извлечена :\n"
+#~ "***%s.\n"
+#~ "\n"
+#~ "Возможные причины:\n"
+#~ " - сервер был обновлен\n"
+#~ " - невозможно загрузить ответ сервера в память\n"
+#~ " - неверное регулярное выражение (в случае если вы добавляли свой сервер)"

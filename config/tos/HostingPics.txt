@@ -1,0 +1,33 @@
+http://www.hostingpics.net
+
+    * 1. Définition:
+
+      HostingPics, http://www.hostingpics.net désignent le ou les propriétaires physiques du site ainsi que les personnes qui peuvent suppléer à la gestion du site. L'utilisateur désigne la personne physique qui upload une image pour héberger cette dernière sur nos serveurs.
+
+    * 2. Limite de responsabilité:
+      HostingPics ne peut en aucun cas être tenu responsable du contenu des images hébergées sur leur(s) serveur(s).
+      HostingPics ne peut être la cible de plaintes formulées sur le contenu des images hébergées. Cependant, HostingPics se réserve le droit de supprimer sans aucun avertissement, les images qui ne répondent pas aux termes d'utilisation d'HostingPics ou à caractère pornographique, pédophile, xénophobe, raciste, antisémite, mais également tout autre image contraires à la loi Française et incitant à la haine et à la violence.
+
+    * 3. Confidentialité:
+
+      HostingPics utilise différents moyens de mémorisation de certaines données personnelles concernant l'utilisation du service:
+      - Adresse E-mail
+      - Adresse IP
+      - Cookie stockant l'ip et/ou l'e-mail
+      Lorsque vous hébergez une image (en cliquant sur le bouton « Héberger ! »), l'adresse IP sera automatiquement enregistrée dans notre base de donnée avec l'image correspondante, et éventuellement, l'e-mail. Cette fonction à pour but de traquer les images hébergées, à caractère illégal.
+      L'équipe d'HostingPics se réserve le droit de visionner les photos hébergées sur leurs serveurs mais s'engagent également à ne pas divulguer leur liens à quiconque; sauf lorsque ces images ne respectent pas les termes d'utilisations présentés sur cette page.
+
+    * 4. Utilisation:
+
+      Le site HostingPics! Permet à l'utilisateur quelconque d'héberger gratuitement une image sur nos serveurs, pour faciliter sa diffusion sur les fora, messageries instantanées, chats, ou autre moyens publics ou privés de communication.
+      Lorsque l'utilisateur héberge une image, sont adresse IP est automatiquement stockée dans nos serveurs associée à l'adresse de l'image (cf. article 3) ainsi que l'e-mail s'il est spécifié par l'utilisateur.
+      L'utilisateur s'engage également à respecter les termes d'utilisations.
+      Les informations personnelles (adresse IP, e-mail) peuvent être remises aux autorités sur ordre de décision judiciaire adressée à HostingPics.
+      Les images hébergés sont la propriété exclusive de l'utilisateur (©). Cet utilisateur est également responsable de ou des images qu'il héberge.
+
+      Nous vous informons qu'HostingPics est un service pour les personnes ne disposant pas d'un espace privé en ligne. Par conséquent, l'utilisation d'Hostingpics pour héberger des éléments graphiques composant le design d'un site web, forum ou blog est interdit.
+
+    * 5. Droit de révision:
+
+      HostingPics se réserve le droit de mettre à jour sans annonce particulière, les termes d'utilisations présentés sur cette page. L'utilisateur s'engage à consulter régulièrement ces termes.
+

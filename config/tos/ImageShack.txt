@@ -1,0 +1,69 @@
+ImageShack Terms of Service
+Short version of the ImageShack Terms of Service:
+
+Don't upload anything that can be construed as porn, copyrighted material, harassment, or spam. If you do, we will ban you, delete all your images, and prevent you from viewing any images hosted on ImageShack.
+1. Definitions
+
+   1. 'ImageShack' refers to the ImageShack Corporation and this website, and excludes its shareholders, owners, or operators.
+   2. 'File' refers to any document that has the potential to be uploaded to ImageShack.
+   3. 'User' refers to the individual who uploads files to ImageShack, has uploaded files to ImageShack, or accesses files from ImageShack.
+   4. 'URL' refers to the location of any file located on ImageShack's servers.
+
+2. Terms of Service
+
+ImageShack reserves the right to remove or replace any uploaded files, and assumes no liability for lost registration links or misplaced file URLs. Changing ImageShack linking codes is prohibited without prior permission. If you use any Imageshack's service, you are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password.
+
+ImageShack allows unlimited bandwidth for uploaded files when they are viewed from our landing page at all times. If an image is hotlinked or linked directly, it will have an hourly bandwidth limit only during peak time (6AM-3PM PST). Premium users have no bandwidth limits. Subscribe here.
+
+The following types of files constitute "abuse" and may not be uploaded under any circumstances, when using Imageshack's Image Hosting :
+
+    * Pornographic files. This includes, but is not limited to, files depicting genitalia, nudity, or sexual situations.
+    * Files that are illegal and/or are in violation of any United States laws.
+    * Files that infringe on the copyrights of any entity excluding the user.
+    * Non-image or non-video files. This includes archived non-image files.
+    * Files intending to harass or spam, or promote anything for commercial profit.
+
+If any domain hotlinks to abusive files, any file hotlinked on that domain will display this image, and the domain's owner must ensure the quick removal of all files hotlinked from ImageShack on that domain. Domains containing the phrases "toplist", "topsites", "porn", or "hentai" are banned regardless of abuse.
+
+When using ImageShack's Torrent Service ImageShack reserves the right to remove or replace any uploaded files, and assumes no liability for files uploaded by users onto their dedicated server space. Users registering more than one free account with Imageshack's torrent service will be banned and all accounts and files uploaded will be removed.
+
+The following types of files constitute "abuse" of ImageShack's Torrent Service and may not be uploaded to user's dedicated server space under any circumstances:
+
+    * Files that are illegal and/or are in violation of any United States laws.
+    * Files that infringe on the copyrights of any entity excluding the user.
+    * Files intending to harass or spam, or promote anything for commercial profit.
+
+Uploading abusive files may result in the immediate termination of the user's ability to use ImageShack or any of its provided services. The ImageShack website may not load, all ImageShack-hosted files may not load, and all files and accounts related to the abusive files will be subject to deletion. Circumventing ImageShack's ability to enforce the ImageShack Terms of Service will result in prosecution.
+
+To report any type of abuse, send email using the Report Abuse or Request Deletion page.
+3. Privacy
+
+All information provided by the user is strictly confidential. ImageShack reserves the right to distribute aggregated demographic information provided by the user, but ImageShack will never release any personal information about the user without permission. However, ImageShack reserves the right to release user information if user has violated the ImageShack Terms of Service, if the user has committed unlawful acts, if the information is subpoenaed, or if ImageShack deems it necessary or appropriate.
+We use third-party advertising companies to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other websites in order to provide advertisements about goods and services of interest to you. If you would like more information about this practice and to know your choices about not having this information used by these companies, click here.
+
+Any media that you submit to Imageshack may be redistributed throughout the Imageshack network of sites, the internet, and other media channels, which may include third-party advertisers.
+4. Legal Policy
+
+ImageShack Terms of Service are subject to change without notice.
+
+All files are copyright to their respective owners. ImageShack directs full legal responsibility of files to their respective users. All other content copyright ImageShack. ImageShack is not responsible for the content any uploaded files, nor is it in affiliation with any entities that may be represented in the uploaded files.
+
+Except where diligently implied, absolutely NO part of ImageShack may be reproduced or recreated without explicit written permission by operators of ImageShack and certified written verification by Notary Public.
+5. Limitation of Liability
+
+User agrees that the use of ImageShack's services is entirely at User's own risk. ImageShack's services are provided on an "as is" basis without warranties of any kind, either expressed or implied, constructive, or statutory, including, without limitation, any implied warranties of merchantability, non-infringement or fitness for a particular purpose.
+
+ImageShack makes no guarantee of availability of service and reserves the right to change, withdraw, suspend, or discontinue any functionality or feature of ImageShack's services. In no event shall ImageShack be liable for any damages, including, without limitation, direct, indirect, incidental, special, consequential, or punitive damages arising out of the use of or inability to use ImageShack's services or any content thereon. This disclaimer applies, without limitation, to any damages or injury, whether for breach of contract, tort, or otherwise, caused by any failure of performance; error; omission; interruption; deletion; defect; delay in operation or transmission; computer virus; file corruption; communication-line failure; network or system outage; or theft, destruction, unauthorized access to, alteration of, or use of any record.
+6. Indemnity
+
+User agrees to indemnify and hold ImageShack harmless from any loss, liability, claims, damages and expenses, including attorneys fees, arising from or related to the content, use, or deletion of User's Files or use of any other feature or service. This expressly includes:
+
+    * User's responsibility for any and all liability arising from the violation or infringement of proprietary rights or copyrights.
+    * Any defamatory or unlawful material contained within User's Files.
+
+7. Maintenance
+
+ImageShack may perform maintenance services as ImageShack determines reasonably necessary. User acknowledges that such maintenance may require downtime. ImageShack will attempt to provide prior notice of the maintenance downtime, except in the case that circumstances beyond Imageshack's control limit the ability to do so.
+8. Subscription and Payments
+
+ImageShack's Image Hosting services are free. If the user needs more space and capacity and decides to upgrade to ImageShack Premium Image Hosting or acquire a subscription plan from Imageshack's Torrent Drive service, the user will be responsible for managing the subscription via user's PayPal account identified at the time of subscription. User's PayPal account will be billed automatically based on the subscrition terms selected by the user at the time of the subscription. User can cancel the subscription at any time using their PayPal account.

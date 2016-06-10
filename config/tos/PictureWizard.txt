@@ -1,0 +1,37 @@
+http://www.picturewizard.com/
+
+Revised 11/2/2006
+We provide for our users image hosting for personal or commercial use.
+
+The files uploaded by the user:
+
+    * shall not contain nudity of any kind.
+    * shall not be obscene, contain child pornography.
+    * shall not violate any local, state, or federal laws concerning decency.
+    * shall not be fraudulent or involve the sale of counterfeit or stolen items.
+    * shall not contain any viruses, trojan horses, worms, time bombs, cancelbots or other computer programming routines that are intended to damage, detrimentally interfere with, surreptitiously intercept or expropriate any system, data, or personal information.
+    * shall not infringe any third party's copyright, patent, trademark, trade secret or other proprietary rights or rights of publicity or privacy.
+    * shall not violate any law, statute, ordinance or regulation (including without limitation those governing export control, consumer protection, unfair competition, anti-discrimination, false advertising, deceptive practices, or securities transactions).
+    * shall not be defamatory, libelous, unlawfully threatening or unlawfully harassing.
+    * shall not create liability for us or cause us to lose (in whole or in part) the services of our ISPs or other suppliers.
+    * shall not use our system to distribute non-image data, such as executables or MP3 music files. 
+
+It is left to each individual user when uploading images, or using images we host on external websites, to abide by any applicable local, state, or federal laws, statues, ordinanced and regulations that may apply. Images reported or found to be in violation will be promptly removed, without notice from us, and the user may be subject to account termination, without possibility of refund for any unused account balances, nor recourse by the customer.
+
+We will cooperate with fully, and provide any useful information available, to any legal or governmental agency in the event of investigation into any legal or questionable violations by a customer.
+
+Free accounts are limited to one per residence. Anyone found to have multiple accounts are subject to removal without notice.
+
+No user will use specialized electronic devices, scripts, batch files, or other devices to use the site in any non-typical manner. This includes automated account signups.
+
+Login information is not to be shared. Accounts found to be in use by multiple hosts or individuals will be subject to immediate termination without prior notification. User passwords and login credentials are to be protected by the account owner. We will not be responsible for unauthorized account access in the event a password is protected by the user. If you suspect a person has accessed your account without authorization, it is your responsibility to change your password and contact us immediately.
+
+Users found to be otherwise abusing the system will be subject to account termination at our discretion. Abuse will be defined as generated traffic equivalent to 1/4 of the user's monthly transfer limit exceeded within a 24 hour period, or data transfer exceeding that of 10 times the average user's data transfer levels. As these values will vary, PictureWizard.com retains the right to adjust our definition of "abuse" as conditions change.
+
+There will be no refunds after 14 days of receipt of payment. Refunds requested within 14 days of receipt of payment will be given at our discretion, and will be subject to processing and transaction fees.
+
+Refunds of any portion of unused subscription payments after an account termination on the part of the customer will be at our discretion.
+
+Refunds are subject to a 10% processing fee plus any and all transaction fees related to the original transaction or the refunding transaction.
+
+Although we strive for 100% service availability, we offer no warrants or guarantees as to the performance, availability or speed of its image hosting service, nor offers any warrants as to suitability or fitness for any particular use. 

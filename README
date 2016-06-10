@@ -1,0 +1,8 @@
+This plugin will capture a screenshot given a rectangular area.
+All suggestions are welcomed :)
+
+To build and install it, follow these steps :
+* type "./configure --prefix=/usr" or "./configure --prefix=/usr --disable-upload"
+* type "make", then "make install" (as root).
+
+end.

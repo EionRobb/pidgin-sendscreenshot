@@ -1,0 +1,128 @@
+Pidgin Screenshot Plugin Changelog
+
+Version 0.8-3 07/31/10:
+	* Fixed freeze when starting a fullscreen application (issue 12).
+	* Fixed crash when hiding current conversation window (issue 11?).
+	* Don't show countdown again if we minimize the current conv window.
+
+Version 0.8-2 06/24/10:
+	* Added hotkeys.
+	* New design for preferences window (tabs).
+	* Automatically add a space before inserting a link, if necessary.
+	* Added BMP file format.
+	* Hold shift key to move or resize the selection.
+	* Show countdown when a delay was set in pref window.
+	* Animated cues (quite useless).
+
+Version 0.8-1 04/18/10:
+	* Present conversation to show upload link if it is closed
+	  (instead of showing an error msg).
+	* Use GIOChannel related funcs instead of fread() fclose().
+	* Added unicode support under Win32.
+Version 0.8 04/15/10:
+	* Don't ignore proxy settings ! (Repported by Paul Matthias Diderichsen and Homolibere).
+	* Faster selection drawing.
+	* Updated Chinese translation (error messages still untranslated).
+	* Set menuitems insensitive when plugin is running.
+	* See real FTP upload progress.
+	* Added keybord interaction while selecting (Escape, ctrl keys). More to come...
+Version 0.7 03/22/10:
+	* Added option to print a signature at the bottom-right corner.
+	* Added Russian translation by Ilya S.
+	* Fixed bad target conv when inserting screenshot from Conversation menu.
+	* Fixed multi-head support on MsWindows.
+Version 0.6-5 03/06/10:
+	* Added option to specify a corresponding Web address when uploading
+	  to a remote FTP server (idea of David Hazelden, thanx !).
+	* Removed Perl support to hmtl upload. Linux and Mac users please install libcurl instead.
+Version 0.6-4 02/15/10:
+	* Fixed bad target conv when using separate windows.
+	  Thanks to Sislav Mladenov.
+Version 0.6-3 12/09/09:
+	* Added ftp upload support.
+	* Fixed "there is still an instance of the plugin running" inconsistant
+	  error msg when user selects an hosting provider for the 1st time.
+	* Minor code improvements (removed extra->imhtml and extra->who, added
+	  extra->account and extra->name).
+
+Version 0.6-2 10/16/09:
+	* Fixed menuitem (Conversation->Insert Screenshot had disapeared
+	  since version 0.6-0).
+	  Thanks to Christopher Riordan for pointing this out.
+
+Version	0.6-1 10/15/09:
+	* Added option to specify a delay before starting
+	  a screenshot, thanks to Andreas Kostyrka for his initial patch !
+	* Updated image hosting providers (see config/Changelog).
+	* Fixed memory leak (host_names, extra_names and extra_values arrays).
+	* Removed close button of uploading dlgbox (dlgbox was closed but
+	  the uploading process was still running).
+	* Fixed unclear error msg about unknow attribute is xml config.
+	* Fixed wrong error msg after upload cancelation (using perl, not libcurl).
+	* David Scheffler updated the German translation.
+	* Odin updated the Polish translation.
+	* Capture couldn't be saved at first time run, fixed (issue reported by Bob Day).
+	* Fixed bad datadir (WIN32 fix).
+	* Fixed G_MARKUP_ERROR_MISSING_ATTRIBUTE undef issue
+
+Version	0.6-0 08/05/09:
+	* Added "show visual cues" option (default: on).
+	* Added capability to upload the screenshot to an image hosting provider.
+	* Improved root_window expose() function (less job to do, faster).
+	* Improved configure dialog : added a folder chooser button instead of a textbox.
+	* Added "greyscale desktop" highlight mode option.
+	* Removed useless define "PREF_HIGHLIGHT_ALL_DEFAULT" in screenshot.h
+	* Removed useless callback : on_conversation_menu_show_cb()
+	* Fixed error handling in on_root_window_button_release_cb()
+	* Fixed pressing enter in capture rename dlgbox to active OK.
+	* Don't call gdk_drawable_get_image() twice.
+	* Cleaned_up unused parameters / variables.
+	* Cleaned up autotools stuff.
+	* !! Translations need to be updated, we are working on this !!
+
+Version 0.5-4 05/16/09:
+	* Spanish translation by Alexander Ovalle is now available ;-)
+
+Version 0.5-3 04/18/09:
+	* Added Polish tranlsation by Odin. Thanks !
+
+Version 0.5-2 03/20/09:
+	* Really added Simplified Chinese translation by Ni Ni.
+
+Version 0.5-1 03/12/09:
+	* Added Dutch translation by Henk van der Velden.
+
+Version 0.5 03/06/09:
+	* Fixed second click of middle mouse button.
+	* Added "always ask for filename" option.
+
+Version 0.4 02/25/09:
+	* Added "save captures in" option.
+	* Added German translation by David Scheffler.
+	* Added French translation.
+
+Version 0.3 02/20/09:
+	* Added partial support for multi-head configurations. Thanks to
+	Phil L. for his detailed report.
+	* Added two more "highlight mode" options : darken / lighten desktop.
+
+Version 0.2-1 02/16/09:v
+	* Fixed the "Down key" issue when sending the screenshot as file.
+	Now the current conversation window reallly get minimized after we hit
+	this key. Thanks to "Harry_debug" for reporting this !
+
+Version 0.2 02/08/09:
+	* Fixed filename when user want to save the image (we only keep
+	the basename now).
+	* Removed "send screenshot" menuitem from "Conversation" menu as
+	it already appears in "More" submenu.
+	* Removed g_file_open_tmp() call, instead, generate a filename
+	using g_get_current_time().
+	* Under Win32, when Pidgin is about to be closed,
+	the plugin caused Pidgin to crash. Fixed that by removing
+	g_signal_disconnect() call (temporarily).
+	* Added gtk/glib version checks.
+	* Fixed timeout_freeze_screen() proto.
+
+Version 0.1 02/05/09:
+	* Initial release. Testing...

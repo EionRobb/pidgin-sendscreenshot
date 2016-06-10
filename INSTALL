@@ -1,0 +1,7 @@
+
+Like usual, on linux :
+
+     - ./configure
+     - make
+     - make install
+end.

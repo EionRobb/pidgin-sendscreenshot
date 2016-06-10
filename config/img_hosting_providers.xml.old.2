@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<upload_hosts version='0.3' name='/'>
+  
+  <!-- 
+       <host name="Host name (as it will appear in the configure dialog)"
+            <param location="Country where the server is located". Not currently used.
+            <param form_action="Server-side form handler"/> 
+            <param file_input_name="Name of the file-select control."/>
+            <param regexp="Perl regexp to mach with the (direct image link)/. The interesting part must be surrounded by parenthesis"/>
+
+            <param name="extra name1" value="extra value1"/>
+              ...
+	    <param name="extra name_n" value="extra value_n"/>
+        </host>
+
+    If you have any suggestions, questions,
+         please e-mail me : <contact@raoulito.info>
+   -->
+
+  <host name="ImageCross">
+    <param location="us"/>
+    <param form_action="http://hosting11.imagecross.com/basicg.php"/>
+    <param file_input_name="userfile"/>
+    <param regexp=".*YourImage.*?(http:\/\/www\.imagecross\.com/.*?)'.*"/>
+  </host>
+
+  <host name="Simpload">
+    <param location="us"/>
+    <param form_action="http://simpload.com/index.php"/>
+    <param file_input_name="upload"/>
+    <param regexp=".*FileLink.*?(http://.*?)&quot;.*"/>
+  </host>
+
+  <host name="Hellameke">
+    <param location="us"/>
+    <param form_action="http://www.hellameke.com/basic.php"/>
+    <param file_input_name="userfile"/>
+    <param regexp=".*DIRECTURL.*?value=&quot;(http://hellameke.com/.*?)&quot;.*"/>
+  </host>
+
+  <host name="TheImghost"> 
+    <param location=""/>
+    <param form_action="http://theimghost.com/inc/uploader.php"/>
+    <param file_input_name="thefile0"/>
+    <param regexp=".*(http:\/\/www\.theimghost.com\/images\/.*?)'.*"/>
+  </host>
+
+  <host name="ImageNerd"> 
+    <param location=""/>
+    <param form_action="http://www.imagenerd.com/"/>
+    <param file_input_name="files[]"/>
+    <param regexp=".*\[IMG\](http:\/\/www\.imagenerd\.com\/uploads\/.*?)\[\/IMG\].*"/>
+    <param name="submit" value="Upload It!" /> <!-- mandatory -->
+  </host>
+
+  <host name="PicyUp">
+    <param location=""/>
+    <param form_action="http://www.picyup.com/"/>
+    <param file_input_name="fileup"/>
+    <param regexp=".*&lt;h2id=&quot;md&quot;&gt;Showdirectlythisimage&lt;\/h2&gt;&lt;divclass=&quot;ctninput&quot;&gt;&lt;divclass=&quot;codex&quot;&gt;&lt;ahref=&quot;(.*?)&quot;.*"/>
+  </host>
+
+  <host name="ImageCloset"> 
+    <param location=""/>
+    <param form_action="http://imagecloset.com/upload.php"/>
+    <param file_input_name="imgfile[]"/>
+    <param regexp=".*\[URL=(.*?)\].*"/>
+  </host>
+
+  <host name="PixsUP_(png)"> <!-- .jpeg not supported .jpg supported... -->
+    <param location=""/>
+    <param form_action="http://www.pixsup.com/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp="\[img\](http:\/\/www.Pixsup.com\/uploads\/.*)\[\/img\]"/>
+    <param name="submit" value="image" /> <!-- mandatory -->
+  </host>
+  
+   <host name="Megahorst">
+    <param location=""/>
+    <param form_action="http://megahorst.com/Upload.html"/>
+    <param file_input_name="Binary0"/>
+    <param regexp=".*(http:\/\/megahorst\.com\/Get\/[a-z-0-9]{32}).*"/>
+    <param name="UploadRequest" value="Y"/>
+  </host>
+
+  <host name="Freeimagehosting"> 
+    <param location=""/>
+    <param form_action="http://www.freeimagehosting.net/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp=".*&quot;(http:\/\/www\.freeimagehosting\.net\/image\.php.*?)&quot;.*"/>
+  </host>
+
+  <host name="HostingPics"> 
+    <param location=""/>
+    <param form_action="http://www.hostingpics.net/envoi.html"/>
+    <param file_input_name="photo1"/>
+    <!-- fixme, too long -->
+    <param regexp=".*Liendirectimage&lt;\/td&gt;&lt;tdclass=\&quot;link\&quot;&gt;&lt;inputtype=\&quot;text\&quot;readonly=\&quot;readonly\&quot;onclick=\&quot;javascript:this\.focus\(\);this\.select\(\);\&quot;size=\&quot;60\&quot;value=\&quot;(.*?)\&quot;.*"/>  
+  </host>
+</upload_hosts>
+
+<!-- end of img_hosting_providers.xml -->

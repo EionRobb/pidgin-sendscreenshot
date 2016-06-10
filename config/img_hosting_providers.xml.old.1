@@ -1,0 +1,87 @@
+
+  <host name="Warst"> <!-- READ http://www.warst.com/terms.php -->
+    <param form_action="http://www.warst.com/image-hosting"/>
+    <param file_input_name="file"/>
+    <param regexp=".*\[IMG\](http:\/\/www\.warst\.com\/images\/uploads\/.*?)\[\/IMG\].*"/>
+    <param name="doupload" value="True"/>
+  </host>
+
+
+  <host name="TheImghost"> <!-- READ http://www.theimghost.com/terms.php -->
+    <param form_action="http://theimghost.com/inc/uploader.php"/>
+    <param file_input_name="thefile0"/>
+    <param regexp=".*(http:\/\/www\.theimghost.com\/images\/.*?)'.*"/>
+  </host>
+
+  <host name="PictureWizard"> <!-- READ http://www.picturewizard.com/tos.asp -->
+   <param form_action="http://www.picturewizard.com/upload.asp"/>
+   <param file_input_name="file1"/>
+   <param regexp=".*DirectURL:&lt;\/b&gt;&lt;br&gt;&lt;inputonClick='selectAll\(this\);'class=&quot;smallInput&quot;size=60type=textname=&quot;&quot;value=&quot;(.*?)&quot;.*"/>
+  </host>
+
+ <host name="ImageNerd"> <!-- READ http://www.imagenerd.com/terms/ -->
+    <param form_action="http://www.imagenerd.com/"/>
+    <param file_input_name="files[]"/>
+    <param regexp=".*\[IMG\](http:\/\/www\.imagenerd\.com\/uploads\/.*?)\[\/IMG\].*"/>
+    <param name="submit" value="Upload It!" /> <!-- mandatory -->
+  </host>
+
+  <host name="PicyUp">
+    <param form_action="http://www.picyup.com/"/>
+    <param file_input_name="fileup"/>
+    <param regexp=".*&lt;h2id=&quot;md&quot;&gt;Showdirectlythisimage&lt;\/h2&gt;&lt;divclass=&quot;ctninput&quot;&gt;&lt;divclass=&quot;codex&quot;&gt;&lt;ahref=&quot;(.*?)&quot;.*"/>
+  </host>
+
+  <host name="ImageCloset"> <!-- READ http://imagecloset.com/terms.php -->
+    <param form_action="http://imagecloset.com/upload.php"/>
+    <param file_input_name="imgfile[]"/>
+    <param regexp=".*\[URL=(.*?)\].*"/>
+  </host>
+
+  <host name="TurboImageHost"> <!-- READ http://www.turboimagehost.com/tos.html  -->
+    <param form_action="http://s1d4.turboimagehost.com/upload.tu"/>
+    <param file_input_name="images[]"/>
+    <param regexp=".*value=&quot;\[url=(http://www.turboimagehost.com/.*?)\].*"/>
+    <param name="imcontent" value="all"/>
+    <param name="privacy" value="public"/> <!-- do I need to change that ? -->
+  </host>
+
+  <host name="PixsUP_(png)"> <!-- .jpeg not supported .jpg supported... -->
+    <param form_action="http://www.pixsup.com/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp="\[img\](http:\/\/www.Pixsup.com\/uploads\/.*)\[\/img\]"/>
+    <param name="submit" value="image" /> <!-- mandatory -->
+  </host>
+
+  <host name="PetaIMG"> <!-- READ http://www.petaimg.com/ToS.php  -->
+    <param form_action="http://www.petaimg.com/index.php"/>
+    <param file_input_name="file[]"/>
+    <param regexp=".*Image:&lt;\/b&gt;&lt;ahref=&quot;(.*?)&quot;.*"/>
+    <param name="submit" value="true"/>
+  </host>
+
+  <host name="Megahorst"> <!--  READ http://www.megahorst.com/GoAGB/  -->
+    <param form_action="http://www.megahorst.com/GoUploadState/"/>
+    <param file_input_name="Binary0"/>
+    <param regexp=".*&lt;tdclass=\&quot;Icon\&quot;&gt;&lt;ahref=\&quot;(http:\/\/megahorst\.com\/Get\/.*?)\&quot;.*"/>
+    <param name="Method" value="Local"/>
+  </host>
+
+  <host name="ImageHosting.com">
+    <param form_action="http://www.imagehosting.com/host.php"/>
+    <param file_input_name="fileupload"/>
+    <param regexp=".*&lt;inputname=\&quot;directurl\&quot;class=\&quot;code\&quot;onClick=\'this\.select\(\);\'size=\&quot;100\&quot;type=\&quot;text\&quot;value=\&quot;(.*?)\&quot;&gt;.*"/>
+  </host>
+
+  <host name="Freeimagehosting"> <!--  READ http://www.freeimagehosting.net/rules.php -->
+    <param form_action="http://www.freeimagehosting.net/upload.php"/>
+    <param file_input_name="attached"/>
+    <param regexp=".*&quot;(http:\/\/www\.freeimagehosting\.net\/image\.php.*?)&quot;.*"/>
+  </host>
+
+  <host name="HostingPics"> <!--  READ http://www.hostingpics.net/mentions.html  -->
+    <param form_action="http://www.hostingpics.net/envoi.html"/>
+    <param file_input_name="photo1"/>
+    <!-- fixme, too long -->
+    <param regexp=".*Liendirectimage&lt;\/td&gt;&lt;tdclass=\&quot;link\&quot;&gt;&lt;inputtype=\&quot;text\&quot;readonly=\&quot;readonly\&quot;onclick=\&quot;javascript:this\.focus\(\);this\.select\(\);\&quot;size=\&quot;60\&quot;value=\&quot;(.*?)\&quot;.*"/>  
+  </host>

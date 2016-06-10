@@ -1,0 +1,505 @@
+# Spanish translations for pidgin-screenshot package.
+# Copyright (C) 2009 THE pidgin-screenshot'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pidgin-screenshot package.
+#
+#
+# <jaovallea@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pidgin-screenshot 0.6-0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-10 13:50+0200\n"
+"PO-Revision-Date: 2009-08-07 03:49+0200\n"
+"Last-Translator: Alexander Ovalle <jaovallea@gmail.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/dialogs.h:31
+msgid "Please be ready ! Desktop will freeze in..."
+msgstr ""
+
+#: src/error.h:58
+msgid "FTP upload failed:"
+msgstr ""
+
+#: src/error.h:61
+#, fuzzy, c-format
+msgid ""
+"Failed to upload the screenshot to '%s'!\n"
+"%s"
+msgstr ""
+"%s complemento no puede guardar su pantallazo en un archivo temporal.\n"
+"Su sistema reportó: '%s'."
+
+#: src/error.h:64
+#, fuzzy
+msgid "Failed to open screenshot file:"
+msgstr ""
+"%s complemento no puede guardar su pantallazo en un archivo temporal.\n"
+"Su sistema reportó: '%s'."
+
+#: src/ftp_upload.h:38
+#, c-format
+msgid "Uploading %d/%d bytes..."
+msgstr ""
+
+#: src/ftp_upload.h:40
+msgid "as a link (_FTP upload)"
+msgstr ""
+
+#: src/ftp_upload.h:41
+msgid "as a URL (_FTP upload)"
+msgstr ""
+
+#: src/http_upload.c:338
+#, c-format
+msgid ""
+"Regexp doesn't match HTTP upload response !\n"
+"Server: %s\n"
+"Regexp:\n"
+"%s\n"
+"Response:\n"
+"%s\n"
+msgstr ""
+
+#: src/http_upload.h:93
+#, c-format
+msgid "Error on line %d char %d:\n"
+msgstr ""
+
+#: src/http_upload.h:94
+#, c-format
+msgid "Something's missing for server '%s':"
+msgstr ""
+
+#: src/http_upload.h:95
+#, c-format
+msgid "Please refer to %s to learn how to add your own server."
+msgstr ""
+
+#: src/http_upload.h:97
+#, c-format
+msgid "Bad regular expression: '%s'!"
+msgstr ""
+
+#: src/http_upload.h:99
+#, c-format
+msgid ""
+"Cannot fetch the URL of your screenshot !\n"
+"Regular expression doesn't match (see debug window).\n"
+"Most likeley '%s' has been updated...\n"
+msgstr ""
+
+#: src/http_upload.h:103
+msgid "Incorrect xml host config file"
+msgstr ""
+
+#: src/http_upload.h:105
+#, c-format
+msgid ""
+"%s.\n"
+"\n"
+"This file contains a list of image hosting providers.\n"
+"Please connect to %s to in order to fetch it."
+msgstr ""
+
+#: src/http_upload.h:109
+msgid ""
+"You haven't selected any image hosting provider yet.\n"
+"Please select one from the configure dialog."
+msgstr ""
+
+#: src/http_upload.h:112
+#, c-format
+msgid ""
+"Failed to parse the contents of:\n"
+"%s"
+msgstr ""
+
+#: src/http_upload.h:115
+msgid "Selected host not met !"
+msgstr ""
+
+#: src/http_upload.h:116
+msgid "No server-side form handler !"
+msgstr ""
+
+#: src/http_upload.h:117
+msgid "No file-select control name !"
+msgstr ""
+
+#: src/http_upload.h:118
+msgid "No regular expression to extract html link !"
+msgstr ""
+
+#: src/http_upload.h:120
+#, c-format
+msgid "\"%s\" is not a valid element name!\n"
+msgstr ""
+
+#: src/http_upload.h:121
+#, c-format
+msgid "\"%s\" is not a valid attribute for element \"%s\"!\n"
+msgstr ""
+
+#: src/http_upload.h:122
+#, c-format
+msgid "element \"%s\" is missing an attribute !\n"
+msgstr ""
+
+#: src/http_upload.h:123
+msgid "a \"value\" attribute is missing !\n"
+msgstr ""
+
+#: src/http_upload.h:130
+msgid "as a link (_HTML upload)"
+msgstr ""
+
+#: src/http_upload.h:131
+msgid "as a URL (_HTML upload)"
+msgstr ""
+
+#: src/http_upload.h:132
+msgid "More info"
+msgstr ""
+
+#: src/main.h:73
+#, fuzzy
+msgid "Send Screenshot"
+msgstr "Pantallazo"
+
+#: src/main.h:74
+#, fuzzy
+msgid "Capture and send a screenshot."
+msgstr "Captura un pantallazo"
+
+#: src/main.h:75
+msgid "This plugin will capture a screenshot given a rectangular area."
+msgstr "Este complemento capturará un pantallazo dada un área rectangular."
+
+#: src/main.h:83
+msgid "Information"
+msgstr ""
+
+#: src/main.h:86
+msgid "Error"
+msgstr ""
+
+#: src/main.h:88
+#, c-format
+msgid ""
+"Another instance of %s is already running.\n"
+"Please wait before sending an other screenshot."
+msgstr ""
+
+#: src/main.h:91
+#, fuzzy, c-format
+msgid "Cannot allocate enough memory (%lu bytes) to load plugin data !"
+msgstr ""
+"No puedo reservar memoria suficiente (%zd bytes) para cargar los datos del "
+"complemento !"
+
+#: src/main.h:92
+#, fuzzy
+msgid ""
+"Failed to allocate enough memory to create the screenshot. You will need to "
+"quit some applications and retry."
+msgstr ""
+"%s complemento no puede reservar memoria suficiente para crear el "
+"pantallazo. Necesitará salir de algunas aplicaciones y reintentar."
+
+#: src/main.h:94
+#, fuzzy, c-format
+msgid "Failed to save your screenshot to '%s'."
+msgstr ""
+"%s complemento no puede guardar su pantallazo en un archivo temporal.\n"
+"Su sistema reportó: '%s'."
+
+#: src/main.h:96
+#, c-format
+msgid "Failed to get '%s' data."
+msgstr ""
+
+#: src/main.h:97
+#, fuzzy
+msgid "Failed to insert your screenshot in the text area."
+msgstr ""
+"%s complemento no puede guardar su pantallazo en un archivo temporal.\n"
+"Su sistema reportó: '%s'."
+
+#: src/main.h:99
+#, c-format
+msgid ""
+"The image used to sign the screenshot is too big.\n"
+"%dx%d is the maximum allowed."
+msgstr ""
+
+#: src/main.h:102
+msgid "An unexpected error occured, see debug window..."
+msgstr ""
+
+#: src/main.h:110
+#, fuzzy
+msgid "No selection"
+msgstr "sólo invertir la selección"
+
+#: src/main.h:111
+msgid "Terms Of Service"
+msgstr ""
+
+#: src/main.h:118
+#, fuzzy
+msgid "_Screenshot"
+msgstr "Pantallazo"
+
+#: src/main.h:119
+#, fuzzy
+msgid "Insert _Screenshot..."
+msgstr "Insertar una ca_ptura de pantalla..."
+
+#: src/main.h:120
+#, fuzzy
+msgid "Send a _Screenshot..."
+msgstr "Pantallazo"
+
+#: src/main.h:122
+msgid "capture"
+msgstr "captura"
+
+#: src/main.h:124
+msgid "as an _Image"
+msgstr ""
+
+#: src/main.h:126
+msgid "Set capture name"
+msgstr "Asignar nombre a la captura"
+
+#: src/main.h:127
+msgid "Capture name:"
+msgstr "Nombre de captura:"
+
+#: src/main.h:128
+msgid "File already exists!"
+msgstr "¡El archivo ya existe!"
+
+#: src/prefs.c:537
+msgid "Image"
+msgstr ""
+
+#: src/prefs.h:85
+#, fuzzy
+msgid "Image parameters"
+msgstr "Formato de Imagen: "
+
+#: src/prefs.h:86
+msgid "Display behaviour"
+msgstr ""
+
+#: src/prefs.h:87
+msgid "Saving"
+msgstr ""
+
+#: src/prefs.h:88
+msgid "Misc"
+msgstr ""
+
+#: src/prefs.h:90
+msgid "Combo of modifiers + keys"
+msgstr ""
+
+#: src/prefs.h:92
+msgid "HTTP upload"
+msgstr ""
+
+#: src/prefs.h:93
+msgid "FTP upload"
+msgstr ""
+
+#: src/prefs.h:94
+msgid "Upload options"
+msgstr ""
+
+#: src/prefs.h:96
+msgid "Image format: "
+msgstr "Formato de Imagen: "
+
+#: src/prefs.h:103
+msgid "JPEG quality level:"
+msgstr "Nivel de Calidad JPEG"
+
+#: src/prefs.h:105
+msgid "PNG compression level:"
+msgstr "Nivel de Compresión PNG"
+
+#: src/prefs.h:107
+msgid "Always add this signature:"
+msgstr ""
+
+#: src/prefs.h:109
+#, c-format
+msgid "Hold the modifier keys and press %s..."
+msgstr ""
+
+#: src/prefs.h:111
+msgid "Send as File: "
+msgstr ""
+
+#: src/prefs.h:112
+msgid "Send as Image: "
+msgstr ""
+
+#: src/prefs.h:114
+msgid "Send as FTP link: "
+msgstr ""
+
+#: src/prefs.h:115
+msgid "Send as HTTP link: "
+msgstr ""
+
+#: src/prefs.h:118
+msgid "Highlight mode:"
+msgstr "Modo de resaltado:"
+
+#: src/prefs.h:119
+#, fuzzy
+msgid "lighten up desktop"
+msgstr "resaltar escritorio"
+
+#: src/prefs.h:120
+msgid "darken desktop"
+msgstr "oscurecer escritorio"
+
+#: src/prefs.h:121
+msgid "invert selection only"
+msgstr "sólo invertir la selección"
+
+#: src/prefs.h:122
+msgid "borders only"
+msgstr "sólo los bordes"
+
+#: src/prefs.h:123
+#, fuzzy
+msgid "grayscale desktop"
+msgstr "oscurecer escritorio"
+
+#: src/prefs.h:125
+msgid "Folder to store captures in:"
+msgstr "Carpeta para guardar capturas:"
+
+#: src/prefs.h:127
+#, fuzzy
+msgid "Always ask for filename when sending as a file."
+msgstr "Siempre preguntar por el nombre de archivo."
+
+#: src/prefs.h:128
+#, fuzzy
+msgid "Only save when sending as a File."
+msgstr "Siempre preguntar por el nombre de archivo."
+
+#: src/prefs.h:130
+msgid "Show visual cues."
+msgstr "Mostrar guías visuales."
+
+#: src/prefs.h:132
+msgid "Seconds to wait before desktop freezes:"
+msgstr ""
+
+#: src/prefs.h:135
+msgid "General"
+msgstr ""
+
+#: src/prefs.h:136
+msgid "Hotkeys"
+msgstr ""
+
+#: src/prefs.h:139
+msgid "Upload"
+msgstr ""
+
+#: src/prefs.h:141
+#, c-format
+msgid ""
+"Pick an image hosting provider (<span foreground='blue'><u>list v.%s</u></"
+"span>)"
+msgstr ""
+
+#: src/prefs.h:143
+msgid "Connect timeout (sec): "
+msgstr ""
+
+#: src/prefs.h:144
+msgid "Upload timeout (sec): "
+msgstr ""
+
+#: src/prefs.h:145
+msgid "Remote FTP URL:"
+msgstr ""
+
+#: src/prefs.h:146
+msgid "Corresponding Web address:"
+msgstr ""
+
+#: src/prefs.h:147
+msgid "User:"
+msgstr ""
+
+#: src/prefs.h:148
+msgid "Password:"
+msgstr ""
+
+#: src/prefs.h:151
+msgid "invalid..."
+msgstr ""
+
+#: src/screencap.h:67
+msgid "An other program has requested to use the display, canceling..."
+msgstr ""
+
+#: src/upload_utils.h:39
+#, fuzzy
+msgid "Location of your screenshot on disk:"
+msgstr ""
+"%s complemento no puede guardar su pantallazo en un archivo temporal.\n"
+"Su sistema reportó: '%s'."
+
+#: src/upload_utils.h:42
+#, fuzzy, c-format
+msgid "Uploading to \"%s\"..."
+msgstr "Enviar una captura de _pantalla..."
+
+#: src/upload_utils.h:45
+#, c-format
+msgid ""
+"Failed to insert a link, possible reasons are:\n"
+" - account not connected,\n"
+" - conversation window closed.\n"
+"\n"
+"The link is:\n"
+"%s"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Screenshot upload"
+#~ msgstr "Complemento Pantallazo"
+
+#~ msgid "_Screen capture"
+#~ msgstr "_Capturar Pantallazo"
+
+#~ msgid "Send screen ca_pture..."
+#~ msgstr "Enviar una captura de _pantalla..."
+
+#~ msgid "Screenshot plugin"
+#~ msgstr "Complemento Pantallazo"
+
+#~ msgid "%s failed to get %s data. Your system returned : '%s'"
+#~ msgstr "%s falló al obtener %s datos. Su sistema reportó: '%s'"
+
+#~ msgid "%s failed to store image: %s\n"
+#~ msgstr "%s falló al almacenar la imagen: %s\n"
+
+#~ msgid "Screenshot plugin parameters"
+#~ msgstr "Parámetros del complemento Pantallazo"

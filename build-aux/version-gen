@@ -1,0 +1,10 @@
+#!/bin/sh
+# Print a version string.
+# ... from autoconf "git-version-gen" script
+
+version=`cat VERSION`
+# Omit the trailing newline, so that m4_esyscmd can use the result directly
+
+echo "$version" | tr -d '\012'
+
+# End of version-gen.
